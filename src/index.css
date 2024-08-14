@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 228);
+    
+}
+
+.navBar{
+   display: flex;
+   justify-content: space-between;
+   background-color: olivedrab;
+   padding: 15px;
+   align-items: center;
+   box-shadow:  0px 2px 2px  rgb(199, 197, 197);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 115px;
+    color: white;
+    list-style: none;
+    border: 2px solid white;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.info:hover{
+   border: 2px solid orange;
+}
+.brandName{
+    color: white;
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.heroSection{
+    height: 500px;
+    margin-left: 170px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+   box-shadow:  0px 2px 2px  rgb(199, 197, 197);
+
+
+}
+
+.heroText{
+    margin-left: 100px;
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(90, 50, 0);
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    height:50px;
+    width: 150px;
+    transform: translateY(-200px);
+    margin-left: 270px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+
+}
+
+button:hover{
+    background-color: darkorange;
+}
+
+.heroImg{
+    height: 500px;
+    width: 700px;
+    margin-left: 100px;
+
+}
+
+.card{
+  height: 300px;
+  width: 200px;
+  box-shadow:  0px 2px 2px  rgb(199, 197, 197);
+  background-color: rgba(202, 202, 202, 0.667);
+  border-top-left-radius: 50px ;
+
+
+}
+.cardText{
+    color: rgb(69, 100, 6);
+    margin-left: 20px;
+    font-weight: bolder;
+
+    
+}
+.priceName{
+    color: brown;
+    margin-left: 20px;
+    font-weight: bolder;
+
+}
+
+.topC{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    font-weight: bolder;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 130px;
+    gap: 20px;
+    width: 1200px;
+    margin-left: 170px;
+    background-color: white;
+    margin-top: 30px;
+  box-shadow:  0px 2px 2px  rgb(199, 197, 197);
+
+}
+
+.flexDiv{
+    display: flex;
+    gap: 50px;
+    margin-left:  150px;
+    padding: 50px;
+}
+
+.title{
+    margin-top: 10px;
+    background-color: olive;
+  box-shadow:  0px 2px 2px  rgb(199, 197, 197);
+  padding: 10px;
+
+    
+}
+
+.title h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: beige;
+}
+
+.title p{
+    padding: 20px;
+    color: white;
+}
+
+.AboutUs{
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+    margin-top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.imgCard img {
+    
+    width: 200px;
+    height: 230px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.teamCard{
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    padding: 10px;
+}
+
+.teamCard img{
+    height: 180px;
+    width: 180px;
+    
+}
+
+.teamContainer{
+    display: flex;
+    margin-left: 280px;
+    padding: 180px;
+    gap: 20px;
+    height: 300px;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.teamText{
+    text-align: center;
+    margin-top: 100px;
+    color:brown;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+.footerTag{
+    background-color:  beige;
+    padding: 30px;
+    margin-top: 50px;
+  box-shadow:  0px 2px 4px  rgb(0, 0, 0.2);
+}
+
+
+
+.footerInfo{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-left: 550px;
+    color: olivedrab;
+    font-weight: bolder;
+}
+
+.teamCard p{
+    color:  brown;
+    text-align: center;
+    font-weight: bolder;
+  background-color: white;
+  box-shadow:  0px 2px 4px  rgb(0, 0, 0);
+  
+
+}
