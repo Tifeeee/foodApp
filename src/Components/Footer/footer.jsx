@@ -1,6 +1,6 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className='footerTag'>
     <ul className= "footerInfo">
@@ -14,4 +14,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
