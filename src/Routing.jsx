@@ -4,12 +4,13 @@ import Products from './Components/Products/Products'
 import About from './Components/About/About'
 import Team from './Components/Team/Team'
 import Footer from './Components/Footer/Footer'
-import NavBar from './Components/Navigation/NavBar'
+import NavBarr from './Components/NavBarr'
+// import NavBar from './Components/Navigation/NavBar'
 
 const Routing = () => {
   return (
     <div>
-            <NavBar/>
+            <NavBarr/>
     <Hero/>
     <Products/>
     <About/>
